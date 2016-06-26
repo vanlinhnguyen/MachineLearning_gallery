@@ -1,0 +1,13 @@
+The folder contains:
+- utils.py(c): some useful functions (read file, clean text)
+- predict_sentiments: 2 functions to predict sentiments, one from the best single model, and one to ensemble 16 different models
+- cross_validataion_*.py: cross validation to optimize model params
+- model_reports (ipynb to run as ipython notebook, or html): detailed analysis
+- test_prediction (ipynb to run as ipython notebook, or html): sample call to predict
+- test_prediction.py: edit this file to test your sample
+- requirements.txt: required packages to install
+
+Install required packages: sudo pip install -r requirements.txt
+
+TO RUN SAMPLE PREDICTION: python test_prediction.py test-tweets.txt
+(replace test-tweets.txt by your file)
